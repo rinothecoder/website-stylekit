@@ -1,6 +1,6 @@
 # Website Stylekit
 
-Website Stylekit is a free color palette and typography generator. This repository contains the final static website build (v2.7) and the WordPress plugin (v2.6).
+Website Stylekit is a free color palette and typography generator. This repository contains the final static website build (v2.7) and a copy of the WordPress plugin (v2.6).
 
 The website is still available at [websitestylekit.com](https://websitestylekit.com/). New features are no longer being developed. You are welcome to download and self-host this build for your own use.
 
@@ -18,7 +18,9 @@ This is the deployed, compiled website bundle, not the original editable Bolt pr
 
 ## WordPress plugin
 
-The installable [v2.6 ZIP](site/downloads/websitestylekit-2.6.zip) is the same package offered on the website. Its source files are in [`wordpress-plugin/websitestylekit/`](wordpress-plugin/websitestylekit/). In WordPress, go to **Plugins → Add New → Upload Plugin** and select the ZIP.
+The [WordPress plugin repository](https://github.com/rinothecoder/websitestylekit-wp-plugin) is the source of truth for the plugin. Download [v2.6 from that repository](https://github.com/rinothecoder/websitestylekit-wp-plugin/blob/main/websitestylekit-2.6.zip). In WordPress, go to **Plugins → Add New → Upload Plugin** and select the ZIP.
+
+The [ZIP bundled with this site](site/downloads/websitestylekit-2.6.zip) and [`wordpress-plugin/websitestylekit/`](wordpress-plugin/websitestylekit/) are copies of v2.6 kept with the site snapshot.
 
 Version 2.6 imports Website Stylekit CSS variables and global classes into Elementor V4 or Bricks, with an import preview and backups. It is no longer actively developed, so compatibility with future builder versions is not guaranteed.
 
